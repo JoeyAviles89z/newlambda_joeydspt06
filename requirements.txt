@@ -1,32 +1,38 @@
+-i https://pypi.org/simple/
 appdirs==1.4.4
-bleach==3.1.5
+bleach==3.3.0
 certifi==2020.6.20
+cffi==1.14.4
 chardet==3.0.4
 colorama==0.4.3
+cryptography==3.3.1
 distlib==0.3.1
 docutils==0.16
 filelock==3.0.12
 idna==2.10
 importlib-metadata==1.7.0
+jeepney==0.6.0 ; sys_platform == 'linux'
 keyring==21.2.1
 numpy==1.19.0
-packaging==20.4
+packaging==20.9
 pandas==1.0.5
 pkginfo==1.5.0.1
-Pygments==2.6.1
+pycparser==2.20
+pygments==2.6.1
 pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.1
 pywin32-ctypes==0.2.0
 readme-renderer==26.0
-requests==2.24.0
 requests-toolbelt==0.9.1
+requests==2.24.0
 rfc3986==1.4.0
+secretstorage==3.3.0 ; sys_platform == 'linux'
 six==1.15.0
 tqdm==4.47.0
 twine==3.2.0
 urllib3==1.25.9
-virtualenv==20.0.25
 virtualenv-clone==0.5.4
+virtualenv==20.0.25
 webencodings==0.5.1
 zipp==3.1.0
